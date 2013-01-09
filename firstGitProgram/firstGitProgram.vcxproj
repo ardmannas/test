@@ -10,6 +10,12 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="root.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="root.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8507ECD1-00D3-48E8-91E7-360CC968BCAB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -38,8 +44,6 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
